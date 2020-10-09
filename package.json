@@ -12,6 +12,7 @@
     ".tonic_example.js"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "eslint": "eslint lib/{compile/,}*.js spec/{**/,}*.js scripts --ignore-pattern spec/JSON-Schema-Test-Suite",
     "jshint": "jshint lib/{compile/,}*.js",
     "lint": "npm run jshint && npm run eslint",
